@@ -1,6 +1,6 @@
 import React, { useReducer } from 'react';
 
-const UserRegistrationForm = () => {
+const UserRegistrationForm = () =>  {
   const initialState = {
     First_Name: { value: '', valid: false, touched: false, error: '' },
     Last_Name: { value: '', valid: false, touched: false, error: '' },
